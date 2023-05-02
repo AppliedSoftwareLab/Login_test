@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\bin\Debug\ClassLibrary1.dll
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\bin\Debug\ClassLibrary1.pdb
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\Server.csproj.CopyComplete
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

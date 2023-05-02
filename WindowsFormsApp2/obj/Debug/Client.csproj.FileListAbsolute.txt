@@ -1,0 +1,27 @@
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\bin\Debug\ClassLibrary1.dll
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\bin\Debug\ClassLibrary1.pdb
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\Client.csproj.CopyComplete
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\user\source\repos\ClassLibrary1\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\bin\Debug\ClassLibrary1.dll
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\bin\Debug\ClassLibrary1.pdb
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Signup.resources
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\Client.csproj.CopyComplete
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\user\Desktop\새 폴더\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
