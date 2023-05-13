@@ -39,7 +39,7 @@ namespace Sever
         static void Main(string[] args)
         {
             Server server1 = new Server();
-            int port = 13000;
+            int port = 7777;
             server1.m_listener = null;
             IPAddress localAddr = IPAddress.Parse("127.0.0.1");
             server1.m_listener = new TcpListener(localAddr, port);
@@ -50,6 +50,15 @@ namespace Sever
             {
                 Console.WriteLine("클라이언트와 연결됐습니다.");
                 server1.m_networkstream = client.GetStream();
+            }
+            while(true)
+            {
+                int nRead = server1.m_networkstream.Read(server1.readBuffer, 0, 1024 * 4);
+                if (nRead == 0)
+                {
+                    Console.WriteLine("파일 읽어오기 끝");
+                    break;
+                }
             }
             Packet packet = (Packet)Packet.Desserialize(server1.readBuffer);
             switch ((int)packet.Type)
