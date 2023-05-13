@@ -23,6 +23,7 @@ namespace ConsoleApp3
             LOGIN = 0,
             PLAY,
             SIGNUP,
+            GAMEPLAY,
             END
         }
         private NetworkStream m_networkstream;
@@ -116,6 +117,10 @@ namespace ConsoleApp3
             G_Play gameplay = new G_Play();
             gameplay.m_strID = "aaaa";
             gameplay.m_playtime = rand.Next(1, 101);
+            gameplay.Type = (int)PacketType.GAMEPLAY;
+            Packet.Serialize(gameplay).CopyTo(this.sendBuffer, 0);
+            this.Send();
+
         }
         static void Main(string[] args)
         {
