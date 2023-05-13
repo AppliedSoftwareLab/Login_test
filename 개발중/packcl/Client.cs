@@ -75,7 +75,7 @@ namespace ConsoleApp3
             Packet.Serialize(login).CopyTo(this.sendBuffer, 0);
             this.Send();
 
-            Console.WriteLine("서버에서 응답 대기 중 ...");
+            /*Console.WriteLine("서버에서 응답 대기 중 ...");
             int read = 0;
             read = this.m_networkstream.Read(readBuffer, 0, 1024 * 4);
             this.m_loginClass = (Login)Packet.Desserialize(this.readBuffer);
@@ -84,7 +84,7 @@ namespace ConsoleApp3
                 Console.WriteLine("로그인 성공");
                 Console.WriteLine(m_loginClass.m_strID);
                 Console.WriteLine(m_loginClass.m_today);
-            }
+            }*/
            
         }
         public void CL_Signup()
