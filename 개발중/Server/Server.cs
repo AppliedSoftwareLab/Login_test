@@ -16,7 +16,7 @@ namespace Sever
     class Server
     {
         private NetworkStream m_networkstream;
-        private TcpClient m_client;
+        private TcpListener m_listener;
         private byte[] sendBuffer = new byte[1024 * 4];
         private byte[] readBuffer = new byte[1024 * 4];
         private bool m_bConnect = false;
@@ -24,7 +24,8 @@ namespace Sever
         public G_Play m_gameplay;
         public Signup m_signup;
 
-        public void Send()
+
+        /*public void Send()
         {
             this.m_networkstream.Write(this.sendBuffer, 0, this.sendBuffer.Length);
             this.m_networkstream.Flush();
@@ -33,10 +34,23 @@ namespace Sever
             {
                 this.sendBuffer[i] = 0;
             }
-        }
+        }*/
 
         static void Main(string[] args)
         {
+            Server server1 = new Server();
+            int port = 13000;
+            server1.m_listener = null;
+            IPAddress localAddr = IPAddress.Parse("127.0.0.1");
+            server1.m_listener = new TcpListener(localAddr, port);
+            server1.m_listener.Start();
+            TcpClient client = server1.m_listener.AcceptTcpClient();
+            if (client.Connected)
+            {
+                Console.WriteLine("클라이언트와 연결됐습니다.");
+                server1.m_networkstream = client.GetStream();
+            }
         }
+            
     }
 }
