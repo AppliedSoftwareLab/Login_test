@@ -12,12 +12,13 @@ namespace packcl
     {
         LOGIN=0,
         SIGNUP,
-        PLAY
+        PLAY,
+        GAMEPLAY
     }
     public enum PacketSendERROR
     {
-        정상 = 0,
-        에러
+        NORMAL = 0,
+        ERR
     }
     [Serializable]
     public class Packet
