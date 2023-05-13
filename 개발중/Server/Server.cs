@@ -23,6 +23,18 @@ namespace Sever
         public Login m_loginClass;
         public G_Play m_gameplay;
         public Signup m_signup;
+
+        public void Send()
+        {
+            this.m_networkstream.Write(this.sendBuffer, 0, this.sendBuffer.Length);
+            this.m_networkstream.Flush();
+
+            for (int i = 0; i < 1024 * 4; i++)
+            {
+                this.sendBuffer[i] = 0;
+            }
+        }
+
         static void Main(string[] args)
         {
         }
