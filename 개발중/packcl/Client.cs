@@ -126,7 +126,7 @@ namespace ConsoleApp3
         {
             Client client = new Client();
             client.Connect();
-            while (!client.m_bConnect)
+            while (client.m_bConnect)
             {
                 Console.WriteLine("다음 중 하나를 선택하세요:");
                 Console.WriteLine("0. 로그인");
@@ -138,24 +138,24 @@ namespace ConsoleApp3
                 if(int.TryParse(type_input,out  type_int) && Enum.IsDefined(typeof(ClientType), type_int))
                 {
                     ClientType type = (ClientType)type_int;
-                    Client _client= new Client();
+             
                     switch (type) {
                         case ClientType.LOGIN:
                             {
                                 Console.WriteLine("로그인을 선택하셨습니다.");
-                                _client.CL_Login();
+                                client.CL_Login();
                                 break;
                             }
                         case ClientType.PLAY:
                             {
                                 Console.WriteLine("플레이를 선택하셨습니다.");
-                                _client.CL_gameplay();
+                                client.CL_gameplay();
                                     break;
                             }
                         case ClientType.SIGNUP:
                             {
                                 Console.WriteLine("회원가입을 선택하셨습니다.");
-                                _client.CL_gameplay();
+                                client.CL_gameplay();
                                 break;
                             }
                         case ClientType.END:
