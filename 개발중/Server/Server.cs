@@ -45,11 +45,27 @@ namespace Sever
             server1.m_listener = new TcpListener(localAddr, port);
             server1.m_listener.Start();
             TcpClient client = server1.m_listener.AcceptTcpClient();
+           
             if (client.Connected)
             {
                 Console.WriteLine("클라이언트와 연결됐습니다.");
                 server1.m_networkstream = client.GetStream();
             }
+            Packet packet = (Packet)Packet.Desserialize(server1.readBuffer);
+            switch ((int)packet.Type)
+            {
+                case (int)PacketType.LOGIN:
+                    {
+                        server1.m_loginClass = (Login)Packet.Desserialize(server1.readBuffer);
+                        Console.WriteLine(server1.m_loginClass.m_strID);
+                        Console.WriteLine(server1.m_loginClass.m_strPW);
+                        Console.WriteLine(server1.m_loginClass.m_today);
+                        break;
+                    }
+
+            }
+            server1.m_listener.Stop();
+            server1.m_networkstream.Close();
         }
             
     }
